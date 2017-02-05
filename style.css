@@ -1,0 +1,29 @@
+#walker, #menucol {
+	color:silver;
+	padding:15px;
+}
+#walker {
+	float:left;
+}
+#menucol {
+	float:right;
+}
+#me {
+	height:230px;
+	width:210px;
+}
+#masthead {
+	background-image: url(brackground_1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#iconheader{
+padding:40px;
+margin-top: 20px;
+}
+#ab {
+	text-decoration: none;
+	color:silver;
+}
