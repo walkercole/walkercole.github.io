@@ -1,3 +1,7 @@
+body {
+	background-color: #CDCDD1
+}
+
 #walker, #menucol {
 	color:silver;
 	padding:15px;
@@ -6,14 +10,14 @@
 	float:left;
 }
 #menucol {
-	float:right;
+	float:left;
 }
 #me {
 	height:230px;
 	width:210px;
 }
 #masthead {
-	background-image: url(brackground_1.jpg);
+	background-image: url(assets/brackground_1.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,20 +32,40 @@ margin-top: 20px;
 	color:silver;
 }
 #segmentVen {
-	background-image: url(venmue.png); background-size: 100%;
+	background-image: url(assets/venmue.png); background-size: 100%;
 	width:90%;
 	height:250px;
-	margin-left: 10px;
+	margin-left: 25px;
 	background-repeat: no-repeat;
 }
 #segmentWik {
-	background-image: url(wikly.png); background-size: 100%;
-	width:95%;
+	background-image: url(assets/wikly.png); background-size: 100%;
+	width:90%;
 	height:250px;
-	margin-left: 15px;	
+	margin-left: 25px;	
 	background-repeat: no-repeat;
 }
-
+#segmentWheel {
+	background-image: url(assets/wheel.png); background-size: 130%;
+	width:90%;
+	height:250px;
+	margin-left: 15px;
+	background-repeat: no-repeat;
+}
+#segmentClock {
+	background-image: url(assets/clock.png); background-size: 130%;
+	width:90%;
+	height:250px;
+	margin-left: 15px;
+	background-repeat: no-repeat;
+}
+#segmentBox {
+	background-image: url(assets/jukebox.png); background-size: 100%;
+	width:90%;
+	height:250px;
+	margin-left: 15px;
+	background-repeat: no-repeat;
+}
 /* caption */
 h4 {
 	color:white;
@@ -53,7 +77,6 @@ float:left;
 overflow:hidden;
 position:relative;
 text-align:center;
-cursor:default;
 }
 
 .hovereffect #overlay {
