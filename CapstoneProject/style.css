@@ -1,0 +1,116 @@
+body {
+	background-image: url("wallpaper.jpg");
+}
+#workSpace {
+	border: solid black 3px;
+	width:1200px;
+	height:600px;
+	align-self: center;
+	margin-left: 30px;
+	margin-top: 20px;
+	background-color: #FF7DFE;
+	border-radius: 15px;
+}
+/*#modalWin {
+	margin-top: 20px;
+	width:400px;
+	height:400px;
+	display:inline-block;
+	text-align: center;
+	margin-left: 350px;
+	display:none;
+}
+#wheel{
+  display:inline-block;
+  position:relative;
+  overflow:hidden;
+}
+#wheel:after{
+  content:"";
+  background:red;
+  border:2px solid white;
+  position:absolute;
+  top:-7px;
+  left:50%;
+  width:10px;
+  height:10px;
+  margin-left:-7px;
+  transform: rotate(45deg)
+}*/
+
+#gameSpace {
+	border: solid blue 2px;
+	border-radius: 10px;
+	width:1100px;
+	height: 550px;
+	margin-left: 45px;
+	margin-top: 20px;
+	background-color: #02FFDC;
+}
+
+#gameName {
+	text-align: center;
+	color:#FF0068;
+	border:solid yellow 2px;
+	background-color: #4D075C;
+	display:block;
+	border-radius: 5px;
+}
+
+#tiles{
+	margin-top: 70px;
+	margin-left: 340px;
+	margin-right: 280px;
+	margin-bottom: 50px;
+}
+
+#t1,#t2,#t3,#t4,#t5,#t6,#t7,#t8,#t9,#t10 {
+	border:solid blue 2px;
+	height:3em;
+	width:2em;
+	display:inline-block;
+	padding:2px;
+	margin:2px;
+	vertical-align: top;
+	background-color: cyan;
+	border-radius: 10px;
+}
+#p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8,#p9,#p10 {
+	display:none;
+	margin-left: 1em;
+	font-weight: bold;
+	text-align: left;
+	font-size:17px;
+}
+
+#playerInput{
+	margin-left:490px;
+	margin-right: 300px;
+}
+
+#wrongGuess {
+	border:solid blue 2px;
+	height:5em;
+	width:20em;
+	margin-left:30px;
+	margin-top:70px;
+	background-color: cyan;
+}
+#wrongLetters {
+	color:black;
+	margin-top: -20px;
+}
+#wrongo {
+	margin-left: 10px;
+}
+/*#hint {
+	text-align: center;
+}*/
+#victory {
+	color:purple;
+	text-align: center;
+}
+#livesLeft {
+	margin-left: 26em;
+	margin-top: -3em;
+}
