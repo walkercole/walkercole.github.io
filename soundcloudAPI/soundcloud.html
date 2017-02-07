@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SoundCloud Jukebox</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>SoundCloud Jukebox</h1>
+	<div id="widget">
+		<button id="pButton" onclick="player()"><img id="pic" src="pause-play-button_318-43701.jpg"></button>
+		<div id="layers1">
+			<h4> Artist:</h4>
+			<p id="artistName"></p>
+		</div>
+		<div id="layers2">
+			<h4> Song Name:</h4>
+			<p id="songName"></p>
+		</div>
+		<div id="layers3">
+			<h4> Song Genre:</h4>
+			<span id="songGenre"></span>
+		</div>
+		<div id="layers4">
+			<h4> Album Art: </h4>
+			<img id="artistCover" src="">
+		</div>
+	</div>
+
+
+			<!--     seperation of script !-->
+<script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+<script>
+	SC.initialize({
+    client_id: "66753bc17bb4afbb2d8b18e31fd8b1c9",
+});
+			//setting the play/pause button and starting the stream
+var is_playing = false,
+    sound;
+function player(){
+    if( sound ) {
+        if(is_playing) {
+            sound.pause();
+            is_playing = false;
+        } else {
+            sound.play();
+            is_playing = true;
+        }
+    } else {
+        SC.stream('/tracks/275999897').then(function(obj){
+            obj.play();
+            sound = obj;
+            is_playing = true;
+        });
+    }
+}
+			//Coudln't Use Description because it was random lol
+			//used just genre instead
+		SC.get('/tracks/275999897').then(function(music){
+			console.log(music);
+			document.getElementById('songName').innerText = music.title + " : " + "chloeburbank/plastictaste";
+			document.getElementById('artistName').innerText = music.user.username + " : " + "Soundcloud.com/chloeburbank";
+			document.getElementById('artistCover').setAttribute('src',music.artwork_url);
+			document.getElementById('songGenre').innerText = music.genre;
+		 });
+</script>
+</body>
+</html>

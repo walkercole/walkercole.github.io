@@ -1,0 +1,38 @@
+body {
+	text-align: center;
+	background-image: url('wallpaper.jpg');
+	background-color: #76CCC6;
+}
+#widget{
+	border:solid black 2px;
+	display: inline-block;
+	margin-top:80px;
+	background-image:url('jukebox.jpg');
+	color:black;
+	width: 360px;
+}
+
+#pButton{
+
+}
+h4 {
+	border:solid white 2px;
+	background-color: #76CCC6;
+}
+span, p{
+	border:solid white 2px;
+	background-color:teal;
+}
+h1 {
+	color:white;
+	font-style: Verdana;
+	padding-top: 10px;
+}
+#layers1, #layers2, #layers3, #layers4 {
+	width:60%;
+	margin-left: 60px;
+}
+#pic {
+	width:40px;
+	margin-left: -10%;
+}

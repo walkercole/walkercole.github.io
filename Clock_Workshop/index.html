@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ay Boss, Got the Time?</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- &nbsp (non breakable space) is used to keep inline format by creating a child node!-->
+<div id="frame">
+<h2 id="comment">Good Morning</h2>
+<span id="clock">&nbsp;</span>
+</div>
+<script>
+//Gathering the data for each variable
+
+	//function to show display the Clock in the Span
+	function displayIt(){
+		var currentTime = new Date (),
+		currentHours = currentTime.getHours(),
+		currentMinutes = currentTime.getMinutes(),
+		currentSeconds = currentTime.getSeconds();
+		//More Formatting for a more visual appealing string
+		currentMinutes = (currentMinutes < 10 ? "0" : "") + currentMinutes;
+		currentSeconds = (currentSeconds < 10 ? "0" : "") + currentSeconds;
+		//Setting either AM or PM
+		var timeOfDay =  (currentHours < 12) ? "AM" : "PM";
+		currentHours = (currentHours > 12) ? currentHours - 12: currentHours;
+		currentHours = (currentHours == 0) ? 12 : currentHours;
+		//formatting data to display hh/mm/ss/xx (xx being AM or PM)
+		var timeString = currentHours + ":" + currentMinutes + ":" + currentSeconds + ":" + timeOfDay;
+		document.getElementById("clock").innerText = timeString;
+	};
+	var timeOutID = window.setInterval(displayIt, 1000);
+		//Greeting Based on Time
+	var d = new Date();
+	var time = d.getHours();
+		if (time < 12){
+			document.getElementById("comment").innerText = "Good Morning!";
+			console.log("morning");
+			document.body.style.backgroundImage = "url('morning.jpg')";
+		}
+		//12 17
+		if (time >= 12 && time <=17) {
+			document.getElementById("comment").innerText = "Good Afternoon!";
+			console.log("noon");
+			document.body.style.backgroundImage = "url('afternoon.jpg')";
+		}
+		//17 24
+		if (time >= 17 && time <=24){
+			document.getElementById("comment").innerText = "Good Night!";
+			console.log("night");
+			document.body.style.backgroundImage = "url('night.jpg')";
+		}
+	</script>
+</body>
+</html>

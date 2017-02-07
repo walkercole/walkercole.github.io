@@ -1,0 +1,27 @@
+#frame {
+	border:solid black 2px;
+	text-align: center;
+	width:20%;
+	height:50px;
+	margin-left: 400px;
+	margin-top: 130px;
+	margin-bottom: 100px;
+	padding: 90px;
+	display:inline-block;
+	position:absolute;
+	background-image:url("rain.jpg");
+}
+body {
+	background-image: url("afternoon.jpg");
+
+}
+#comment{
+	color:white;
+}
+span{
+	color:white;
+	border:solid white 2px;
+	padding:6px;
+	margin:4px;
+	background-color: #5FA39E;
+}
