@@ -46,7 +46,7 @@ margin-top: 20px;
 	background-repeat: no-repeat;
 }
 #segmentWheel {
-	background-image: url(assets/wheel.png); background-size: 130%;
+	background-image: url(assets/snake.png); background-size: 100%;
 	width:90%;
 	height:250px;
 	margin-left: 15px;
