@@ -1,294 +1,1207 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Walker Cole</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<script type="text/javascript" src="
-https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.css">
-<script src="script.js"></script>
-<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.6/components/visibility.min.js"></script>
-<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.6/components/transition.min.js"></script>	
-<link rel="icon" type="image/png" href="assets/walker.ico" sizes="40x40">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-	<div id="navbar" class="ui large black top fixed inverted menu">
-		<div id="navcontainer" class="ui container">
-				<a id="ab" href="#skills"><div id="menucol" class="item">
-				<i class="white fire icon"></i>SKILLS
-				</div></a>
-				<a id="ab" href="#projects"><div id="menucol" class="item">
-				<i class="white book icon"></i>PROJECTS
-				</div></a>
-				<a href="assets/Walker_Cole_Resume.pdf" target="_blank"> <div id="menucol" class="item">
-				<i class="white clone icon"></i>RÉSUMÉ
-				</div></a>
-				<a id="ab" href="#contact"><div id="menucol" class="item">
-				<i class="white phone icon"></i>CONTACT
-				</div></a>
-		</div>
-			<a id="ab" href="#walkers"><div id="walker" class="item">
-			WALKER COLE
-			</div></a>
-	</div>
-	<a id="walkers"></a>
-	<div id="masthead" class="ui inverted vertical masthead center aligned segment">
-	    <div class="ui text container">
-	      <h1 class="ui inverted header">
-	      </h1><br/><br/>
-	      <img id="me" class="ui centered small circular image" src="assets/walker.jpg">
-	      <h1>Walker Cole</h1>
-	      <i class="large angle left icon"></i>Full-Stack Web Developer<i class="large angle right icon"></i><br/>Washington, DC
-	    </div>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Walker Cole" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Walker Cole">Walker Cole</h1>
+
+          <p class="title">Lead Software Engineer</p>
+          <p class="title title-badge">5+ Years of VueJS Experience</p>
+
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:walker.a.cole@gmail.com" class="contact-link">walker.a.cole@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12403149248" class="contact-link">+1 (240) 314-9248</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1997-06-18">June 18</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Las Vegas, Nevada, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a Full Stack, Front End specialized engineer working on groundbreaking technologies -
+			 a lifetime software engineer driven by a passion for the art of development and effective
+			  collaboration of great minds to solve great problems.
+          </p>
+
+          <p>
+            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
+            Moreover, I
+            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
+            across your
+            message and identity in the most creative way.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Webapp development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites & SPA's at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I use photography and AI art generators to create original designs.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Walker was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Walker was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Walker was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Walker was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Walker was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lead Senior Software Engineer</h4>
+
+              <span><b>Hungry Harvest - </b>2022 — Present</span>
+
+              <p class="timeline-text">
+                • Managed remote technology team across numerous timezones and coordinated coding best practices and collaborative efforts.<br/>
+				• Maintained and Tested all code repositories & environments with newly implemented end to end automated testing suite written in Cypress.<br/>
+				• Coordinated with 3rd party partners and vendors to facilitate reports for internal product management scoping.<br/>
+				• Provided technical guidance for best practices and guidelines/protocols for the technology team.<br/>
+				• Lead programming efforts for E-Commerce solution written in React JS.<br/>
+              </p>
+
+            </li>
+
+			<li class="timeline-item">
+
+				<h4 class="h4 timeline-item-title">Lead UI Engineer</h4>
+  
+				<span><b>Qualitycs - </b>2020 — 2022</span>
+  
+				<p class="timeline-text">
+				  • Improved SEO across main application which saw an increase of 60% average scoring on all facets of ranking.<br/>
+				  • Implemented a new Design System to increase consistency and pace of development.<br/>
+				  • Architected and lead the overhaul and deployment of the new main product on a new modern tech stack ( From PHP and Symphony to VueJs and GraphQl )<br/>
+				  • Lead UI/UX design and development efforts across all products both legacy and greenfield.<br/>
+				</p>
+  
+			  </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lead UI Engineer</h4>
+
+              <span><b>Rehab.com, LLC - </b>2020 — 2020</span>
+
+              <p class="timeline-text">
+				• Improved SEO across main application which saw an increase of 60% average scoring on all facets of ranking.<br/>
+				• Implemented a new Design System to increase consistency and pace of development.<br/>
+				• Architected and lead the overhaul and deployment of the new main product on a new modern tech stack ( From PHP and Symphony to VueJs and GraphQl )<br/>
+				• Lead UI/UX design and development efforts across all products both legacy and greenfield.<br/>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Front End JavaScript Engineer</h4>
+
+              <span><b>QOMPLX - </b>2017 — 2020</span>
+
+              <p class="timeline-text">
+                • Expanded upon my stack by specializing in Front End utilizing current trend technologies such as Vue and Material Design philosophy.<br/>
+				• Collaborated on a wide breadth of teams within the company including our Cyber Security, Financial Tech, and Insurance platforms.<br/>
+				• Scaled and maintained 5+ platforms with ongoing stack optimizations, such as transitions from AngularJS to Vue.<br/>
+				• Overhauled the public facing website<br/>
+				• Curated personalized products for various customers.<br/>
+				• Managed analytic pipelines in dynamic workflows with AWS utilizing S3.<br/>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+		<section class="timeline">
+
+			<div class="title-wrapper">
+			  <div class="icon-box">
+				<ion-icon name="book-outline"></ion-icon>
+			  </div>
+  
+			  <h3 class="h3">Academics</h3>
+			</div>
+  
+			<ol class="timeline-list">
+  
+			  <li class="timeline-item">
+  
+				<h4 class="h4 timeline-item-title">JavaScript Algorithms and Data Structures Certificate Course</h4>
+  
+				<span>2019 — 2019</span>
+  
+				<p class="timeline-text">
+					Exercised and mastered Sorting Algorithms and Data Structures which are common in JavaScript
+				</p>
+  
+			  </li>
+  
+			  <li class="timeline-item">
+  
+				<h4 class="h4 timeline-item-title">New York Code + Design Academy</h4>
+  
+				<span>2016 — 2017</span>
+  
+				<p class="timeline-text">
+					Git Essentials Training • Front-End Web UI Frameworks & Tools • JavaScript Essentials Training • Unix for Mac OS
+				</p>
+  
+			  </li>
+  
+			</ol>
+  
+		  </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2s%20Las%20Vegas%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
     </div>
-	<div class="ui container"> 
-	 	<h2 id="iconheader" class="ui center aligned dividing icon header">
-	 		<i class ="blue user icon"></i>
-	 		<div class="content"><br/>
-	 			<u>About Me</u>
-	 		</div><br/>
-	 			<div class="sub header"> After pursuing musical aspirations as a drummer in my hometown of Panama City, I moved to DC to make an impact in the tech scene. As a Full Stack Developer, I work to improve the connection between code and social progress through collaboration. Just like great music and the prolific artists who produce it - powerful products can only be built by teams dedicated to moving forward.  
-	 			</div>
-	 	</h2>
-	</div>
-	<a id="skills"></a>
-	<h2 id="iconheader" class="ui center aligned icon header">
- 		<i class ="blue file code outline icon"></i>
- 			<div class="content"><br/>
-	 			<u>Technical Skills</u>
-	 		</div><br/>
-	</h2>
-	<div id="skillcontainer" class="ui center aligned grid fluid container">
-		<div class="four wide column">
-		<h3 id="skills" class="ui icon header">
-			<i class="blue html5 icon"></i>
-			<div class="content">
-				HTML5
-			</div>
-		</h3>
-		</div>
-		<div class="four wide column">
-		<h3 id="skills" class="ui icon header">
-			<i class="blue css3 icon"></i>
-			<div class="content">
-				CSS
-			</div>
-		</h3>
-		</div>
-		<div class="four wide column">
-		<h3 id="skills" class="ui icon header">
-			<i class="blue code icon"></i>
-			<div class="content">
-				JavaScript
-			</div>
-		</h3>	
-		</div>
-		<div class="four wide column">
-		<h3 id="skills" class="ui icon header">
-			<i class="blue diamond icon"></i>
-			<div class="content">
-				Ruby on Rails
-			</div>
-		</h3>	
-		</div>
-		<div class="four wide column">
-		<h3 id="skills" class="ui icon header">
-			<i class="blue database icon"></i>
-			<div class="content">
-				SQL
-			</div>
-		</h3>
-		</div>
-		<div class="four wide column">
-		<h3 id="skills" class="ui icon header">
-			<i class="blue fork icon"></i>
-			<div class="content">
-				Git
-			</div>
-		</h3>
-		</div>
-		<div class="four wide column">
-		<h3 id="skills" class="ui icon header">
-			<i class="blue terminal icon"></i>
-			<div class="content">
-				Bash
-			</div>
-		</h3>		
-		</div>
-		<div class="four wide column">
-		<h3 id="skills" class="ui icon header">
-			<i class="blue plug icon"></i>
-			<div class="content">
-				jQuery
-			</div>
-		</h3>
-		</div>
-		<div class="four wide column">	
-		<h3 id="skills" class="ui icon header">
-			<i class="blue bar chart icon"></i>
-			<div class="content">
-				D3
-			</div>
-		</h3>
-		</div>
-		<div class="four wide column">
-		<h3 id="skills" class="ui icon header">
-			<i class="blue opera icon"></i>
-			<div class="content">
-				JSON
-			</div>
-		</h3>	
-		</div>
-		<div class="four wide column">
-		<h3 id="skills" class="ui icon header">
-			<i class="blue adn icon"></i>
-			<div class="content">
-				API's
-			</div>
-		</h3>	
-		</div>
-		<div class="four wide column">
-		<h3 id="skills" class="ui icon header">
-			<i class="blue crop icon"></i>
-			<div class="content">
-				Photoshop
-			</div>
-		</h3>
-		</div>
-	</div>	
-	<div class="ui divider"></div><br/>
-	<a id="projects"></a>
-	<h2 class="ui center aligned icon header">
-		<i class="connectdevelop blue icon"></i>
-		<div class="content">
-			<u>Projects</u>
-		</div>
-	</h2><br/>	
-	<div class="ui fluid row">
-		<div class="ui two column stackable grid">
-			<div class="column">
-				<a href="https://venmue.herokuapp.com/" target="_blank" class="hovereffect">
-					<div id="segmentVen" class="ui raised segment">
-						<h3 id="overlay" class="ui center aligned icon header"><br/>
-							<i class="blue vimeo icon"></i>
-							<div class="content">
-								Venmue
-							</div>
-							<div class="sub header"><br/>
-							<h4>Venue listing web-app using Google API to display dynamic maps relevant to the database.</h4>
-							<h4>Ruby on Rails / Javascript / CSS / JSON / SQL / Google API</h4>
-							</div>
-						</h3>
-					</div>
-				</a>
-			</div>
-			<div class="column">
-				<a href="http://protrakr.co/" target="_blank" class="hovereffect">
-					<div id="segmentWik" class="ui raised segment">
-						<h3 id="overlay" class="ui center aligned icon header"><br/>
-							<i class="blue chrome icon"></i>
-							<div class="content">
-								Protrakr
-							</div>
-							<div class="sub header"><br/>
-							<h4>Enterprise software that allows construction companies to manage their workforce and projects to display crucial information in reports and tables in real time.</h4>
-							<h4>Rails / Javascript / HAML / Jquery / SCSS / PostgreSQL / Angular</h4>
-							</div>
-						</h3>
-					</div>
-				</a>
-			</div>
-		</div>	
-	</div><br/><br/>
-	<div class="ui fluid row">
-		<div class="ui three column stackable grid">
-			<div class="column">
-				<a href="Snake/snake.html" target="_blank" class="hovereffect">
-					<div id="segmentWheel" class="ui raised segment">
-						<h3 id="overlay" class="ui centered aligned icon header"></br>
-							<i class="blue game icon"></i>
-								<div class="content">
-									Snake
-								</div>
-							<div class="sub header"><br/>
-							<h4>Simple game of Snake created entirely with Javascript</h4>
-							<h4>Javascript</h4>
-							</div>
-						</h3>
-					</div>
-				</a>
-			</div>
-			<div class="column">
-				<a href="http://guarded-atoll-54755.herokuapp.com/" target="_blank" class="hovereffect">
-					<div id="segmentClock" class="ui raised segment">
-						<h3 id="overlay" class="ui centered aligned icon header"></br>
-							<i class="blue vk icon"></i>
-								<div class="content">
-									Wikly
-								</div>
-							<div class="sub header"><br/>
-							<h4>Time management web-app that allows the user to plan events on a weekly generated calendar.</h4>
-							<h4>Ruby on Rails / Javascript / CSS / SQL</h4>
-							</div>
-						</h3>
-					</div>
-				</a>
-			</div>
-			<div class="column">
-				<a href="fuzakeru/index.html" target="_blank" class="hovereffect">
-					<div id="segmentBox" class="ui raised segment">
-						<h3 id="overlay" class="ui centered aligned icon header"></br>
-							<i class="blue translate icon"></i>
-								<div class="content">
-									Fuzakeru
-								</div>
-							<div class="sub header"><br/>
-							<h4>Gallery showcasing CSS animations</h4>
-							<h4> Javascript / CSS </h4>
-							</div>
-						</h3>
-					</div>
-				</a>
-			</div>
-		</div>
-	</div><br/>
-	<div class="ui divider"></div>
-	<a id="contact"></a>
-	<h2 id="iconheader" class="ui center aligned icon header">
- 		<i class ="blue mixcloud icon"></i>
- 			<div class="content"><br/>
-	 			<u>Get in Touch!</u>
-	 		</div><br/>
-	 		<div class="sub header">
-	 		If you are an employer or simply someone looking for collaboration, feel free to contact me at any time!</div>
-	</h2>
-	<div class="ui center aligned grid fluid container">
-		<div class="ui row">
-			<div class="four wide column">
-				<h3 id="contacting" class="ui icon header">
-					<i class="blue mail icon"></i>
-					<div class="content">
-						walker.a.cole@gmail.com
-					</div>
-				</h3>
-			</div>
-		</div>
-	</div>
-	<div class="ui grid">
-		<div class="ui center aligned black row container">
-			<div class="two wide column">
-			</div>
-			<div class="four wide column">
-			<a href="http://github.com/walkercole" target="_blank"><i class="huge github alternate icon"></i></a>
-			</div>
-			<div class="four wide column">
-			<a href="https://www.linkedin.com/in/walker-cole" target="_blank"><i class="huge linkedin square icon"></i></a>
-			</div>
-			<div class="four wide column">
-			<a href="https://twitter.com/WalkerCoIe" target="_blank"><i class="huge twitter icon"></i></a>
-			</div>
-		</div>
-	</div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
+
 </html>
