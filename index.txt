@@ -32,10 +32,9 @@ Contact
 
 About me
 
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+I'm a Full Stack, Front End specialized engineer working on groundbreaking technologies - a lifetime software engineer driven by a passion for the art of development and effective collaboration of great minds to solve great problems.
 
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
-
+My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way.
 
 ## service
 
@@ -62,21 +61,21 @@ I make high-quality photos of any category at a professional level.
 
 Testimonials
 
-alt = Daniel lewis
-Daniel lewis
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+alt = Alan Silva
+Alan Silva
+Very good communication, very fast delivery and very good unique skills. A Pleasure To Work With.
 
-alt = Jessica miller
-Jessica miller
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+alt = Elisia Miller
+Elisia Miller
+I had the pleasure of working with Walker on a complex web development project, and I was blown away by their skills and professionalism. They have a deep understanding of front-end technologies and were able to implement complex designs with ease. They are a true expert in their field and I would not hesitate to work with them again.
 
-alt = Emily evans
-Emily evans
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+alt = Emily Cook
+Emily Cook
+As a start-up, we needed a web developer who could work with us to create a website from scratch. Walker was the perfect choice. They were able to provide guidance on the best technologies to use and developed a site that was responsive and easy to navigate. Their communication throughout the project was excellent, and they were able to deliver on time and within budget.
 
-alt = Henry william
-Henry william
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+alt = Dan Studebacher
+Dan Studebacher
+I highly recommend Walker as a web developer... They have a strong technical background and excellent communication skills... which made it easy for us to work together and achieve our goals... Their attention to detail and commitment to quality resulted in a webapp that exceeded our expectation
 
 
 ## clients
