@@ -2,23 +2,23 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
+alt = Walker Cole
+Walker Cole
 Web developer
 
 Show Contacts
 
 Email
-richard@example.com
+walker@example.com
 
 Phone
-+1 (213) 352-2795
++1 (240) 314-9248
 
 Birthday
-June 23, 1982
+June 18, 1997
 
 Location
-Sacramento, California, USA
+Las Vegas, Nevada, USA
 
 # navbar
 
@@ -123,12 +123,12 @@ My skills
 
 Web design
 80%
-Graphic design
-70%
-Branding
-90%
-WordPress
-50%
+Web Development
+95%
+Leadership
+80%
+Reason To Remember The Name
+100%
 
 
 
